@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Env / Secrets
+.env
+.env.*
+venv/
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+media/
+staticfiles/
+db.sqlite3
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+**/docker-compose.override.yml
+**/Dockerfile.*
+
+# Pytest
+.pytest_cache/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
