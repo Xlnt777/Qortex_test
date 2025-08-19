@@ -8,7 +8,6 @@ __pycache__/
 
 # Env / Secrets
 .env
-.env.*
 venv/
 *.env
 
